@@ -39,11 +39,16 @@ The yearly dividend was mainly at 0 in the earlier years, and haven't made any m
 ![4b91dacd-5412-4c92-8d4f-d23ed80cecf8](https://github.com/user-attachments/assets/0b5f5637-2605-460c-bee8-d31f6c6a9b6a)
 
 
-Stock Split and Their Impact on Stock Price: (they will be marked with red vertical lines)
+Stock Split and Their Impact on Stock Price:
+(they will be marked with red vertical lines)
+
 Insights:
+
 EA has undergone multiple stock spilts, and have generally been followed by a short term increse in stock price
 
 Stock splits made shares more accessible to retail investors but did not have a long term impact on overall price trends.
+
+
 
 
 
