@@ -1,0 +1,53 @@
+# Load necessary libraries
+library(ggplot2)
+
+# Load data
+stock_price <- read.csv("Downloads/archive-8/EA_stock_price.csv")
+dividend_data <- read.csv("Downloads/archive-8/EA_stock_dividend.csv")
+split_data <- read.csv("Downloads/archive-8/EA_stock_split.csv")
+
+# Converted Date columns to date format
+stock_price$Date <- as.Date(stock_price$Date, "%Y-%m-%d")
+dividend_data$Date <- as.Date(dividend_data$Date, "%Y-%m-%d")
+split_data$Date <- as.Date(split_data$Date, "%Y-%m-%d")
+
+# Merged the datasets
+merged_data <- merge(stock_price, dividend_data, by = "Date", all.x = TRUE)
+merged_data <- merge(merged_data, split_data, by = "Date", all.x = TRUE)
+
+# Filled NA values for Dividends and Stock Splits
+merged_data$Dividend[is.na(merged_data$Dividend)] <- 0
+merged_data$Stock.Splits[is.na(merged_data$Stock.Splits)] <- 1
+
+# Calculated Dividend Yield (Dividend / Close Price)
+merged_data$Dividend_Yield <- merged_data$Dividend / merged_data$Close.Price
+
+# Focused on data from 2010 to present for analysis
+recent_data <- merged_data[merged_data$Date >= as.Date("2010-01-01"), ]
+
+# Stock Price Over Time
+ggplot(merged_data, aes(x = Date, y = Close.Price)) +
+  geom_line(color = "blue") +
+  ggtitle("EA Stock Price Over Time") +
+  xlab("Date") +
+  ylab("Closing Price") +
+  theme_minimal()
+
+# Dividend Yield Over Time (2010-Present)
+ggplot(recent_data, aes(x = Date, y = Dividend_Yield)) +
+  geom_line(color = "green") +
+  ggtitle("EA Dividend Yield Over Time (2010-Present)") +
+  xlab("Date") +
+  ylab("Dividend Yield") +
+  theme_minimal()
+
+# Stock Price with Stock Splits Highlighted
+ggplot(merged_data, aes(x = Date, y = Close.Price)) +
+  geom_line(color = "blue") +
+  geom_vline(data = subset(merged_data, Stock.Splits != 1), 
+             aes(xintercept = Date), color = "red", linetype = "dashed") +
+  ggtitle("EA Stock Price with Stock Splits Highlighted") +
+  xlab("Date") +
+  ylab("Closing Price") +
+  theme_minimal()
+
