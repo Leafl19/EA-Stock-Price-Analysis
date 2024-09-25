@@ -21,9 +21,19 @@ This project analyzes Electronic Arts "EA" stock prices, dividend payments, and 
 - **plots/**: Visualizations generated from the analysis.
 
 
-## Findings For Analysis
+## Findings/ Insights For Analysis
 
 Analysizng EA stock prices over time:
 I've seen that they have grown consistently over the years, with some noticable drops during global finacial crises and other market events. This trend that was found 
 indicates EA having strong growth over the long term despite short term Volatility.
+
+![plot_zoom_png](https://github.com/user-attachments/assets/e9e3be3d-a870-4638-82e1-a4e64d107e9d)
+
+
+Dividend Yeild Over Time:
+
+The yearly divident was mainly at 0 in the earlier years, and haven't really made any movement up until the 2010's so i decided to analyze it from 2010-present day. Also doing more research i found out that EA current dividend policy was more defined closer to the 2010's so starting at 2010, gave a clearer picture for the analysis being done. Also indicating that EA focus mored on reinvesting their earning for growth rather than retunrning large amounts of cash to stakeholders.
+
+
+
 
