@@ -22,7 +22,7 @@ This project analyzes Electronic Arts "EA" stock prices, dividend payments, and 
 - [stock dividend](https://github.com/user-attachments/files/17122976/EA_stock_dividend.csv)
 
 - **code/**: The R script used to perform the analysis
-- [here](
+- [EA R Analysis.txt](https://github.com/user-attachments/files/17123066/EA.R.Analysis.txt)
   
 
 
