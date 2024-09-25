@@ -23,16 +23,30 @@ This project analyzes Electronic Arts "EA" stock prices, dividend payments, and 
 
 ## Findings/ Insights For Analysis
 
-Analysizng EA stock prices over time:
+Analysizng EA stock prices over time
+Insights:
 I've seen that they have grown consistently over the years, with some noticable drops during global finacial crises and other market events. This trend that was found 
 indicates EA having strong growth over the long term despite short term Volatility.
 
 ![plot_zoom_png](https://github.com/user-attachments/assets/e9e3be3d-a870-4638-82e1-a4e64d107e9d)
 
 
-Dividend Yeild Over Time:
+Dividend Yeild Over Time
 
-The yearly divident was mainly at 0 in the earlier years, and haven't really made any movement up until the 2010's so i decided to analyze it from 2010-present day. Also doing more research i found out that EA current dividend policy was more defined closer to the 2010's so starting at 2010, gave a clearer picture for the analysis being done. Also indicating that EA focus mored on reinvesting their earning for growth rather than retunrning large amounts of cash to stakeholders.
+Insights:
+The yearly dividend was mainly at 0 in the earlier years, and haven't made any movement up until the 2010's. So i decided to analyze it from 2010-present day, doing more research i found out that EA current dividend policy was more defined closer to the 2010's so starting at 2010, gave a clearer picture for the analysis being done. All indicating that EA focus mored on reinvesting their earning for growth rather than retunrning large amounts of cash to stakeholders.
+
+![4b91dacd-5412-4c92-8d4f-d23ed80cecf8](https://github.com/user-attachments/assets/0b5f5637-2605-460c-bee8-d31f6c6a9b6a)
+
+
+Stock Split and Their Impact on Stock Price: (they will be marked with red vertical lines)
+Insights:
+EA has undergone multiple stock spilts, and have generally been followed by a short term increse in stock price
+
+Stock splits made shares more accessible to retail investors but did not have a long term impact on overall price trends.
+
+
+
 
 
 
