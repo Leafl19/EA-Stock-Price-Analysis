@@ -16,8 +16,8 @@ This project analyzes Electronic Arts "EA" stock prices, dividend payments, and 
 
 
 
-- **data/**: Contains the datasets used in the analysis
-- **code/**: The R script used to perform the analysis
+- **data/**: Contains the datasets used in the analysis [here](code/
+- **code/**: The R script used to perform the analysis  [here](
   
 
 
