@@ -17,7 +17,7 @@ This project analyzes Electronic Arts "EA" stock prices, dividend payments, and 
 - **data/**: Contains the datasets used in the analysis.
 - 
 - **code/**: The R script used to perform the analysis.
-- 
+  
 - **plots/**: Visualizations generated from the analysis.
 
 
@@ -47,6 +47,7 @@ Insights:
 EA has undergone multiple stock spilts, and have generally been followed by a short term increse in stock price
 
 Stock splits made shares more accessible to retail investors but did not have a long term impact on overall price trends.
+
 
 
 
