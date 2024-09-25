@@ -2,10 +2,11 @@
 
 ## Overview
 This project analyzes Electronic Arts "EA" stock prices, dividend payments, and stock splits over time to uncover insights into EA's stock performance. The analysis explores:
-  Stock price trends
-  Dividend yield calculations
+  Stock price trends,
+  Dividend yield calculations,
   Impact of stock splits on stock price
-  Trading volume around dividend payment dates
+  
+**Tools Used**: R
 
 ## Key Findings:
 **Strong Stock Price Growth**: EA’s stock price has shown consistent growth with significant rises around key market events
@@ -16,12 +17,12 @@ This project analyzes Electronic Arts "EA" stock prices, dividend payments, and 
 
 
 
-- **data/**: Contains the datasets used in the analysis
+ **Datasets used in the analysis**
 - [stock split](https://github.com/user-attachments/files/17122974/EA_stock_split.csv)
 - [stock price](https://github.com/user-attachments/files/17122975/EA_stock_price.csv)
 - [stock dividend](https://github.com/user-attachments/files/17122976/EA_stock_dividend.csv)
 
-- **code/**: The R script used to perform the analysis
+ **R script used to perform the analysis**
 - [EA R Analysis.txt](https://github.com/user-attachments/files/17123066/EA.R.Analysis.txt)
   
 
